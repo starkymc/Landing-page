@@ -19,14 +19,14 @@ if($_POST) {
     }
      
      $recipient = "gianz12@hotmail.com";
-     $asunto = 'Este correo fue enviado desde la web AICAM';
+    
      
 
     $headers  = 'MIME-Version: 1.0' . "\r\n"
     .'Content-type: text/html; charset=utf-8' . "\r\n"
     .'From: ' . $email . "\r\n";
      
-    if(mail($recipient, $email, $asunto, $message, $headers)) {
+    if(mail($recipient, $email, $message, $headers)) {
        // echo "<p>Thank you for contacting us, $name. You will get a reply within 24 hours.</p>";
         header( "Location:exito.html" );
     } else {
