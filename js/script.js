@@ -1,3 +1,5 @@
+//MENU DESPLEGABLE PARA CUANDO LA PAGINA  SE ACHIQUE
+
 var menu = document.getElementById("bar");
 var item = document.getElementById("item");
 

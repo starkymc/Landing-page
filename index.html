@@ -6,11 +6,21 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" crossorigin="anonymous">
         <link href="css/style.css" rel="stylesheet">
+        
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <script src="http://code.jquery.com/jquery-latest.js"></script>
+        <script src="js/arriba.js"></script>
     </head>
     <body>
+
+       <!--ICONO PARA DESLIZAR HACIA ARRIBA-->
+        <span class="ir-arriba fa fa-chevron-up"></span>
+         <!--ICONO PARA DESLIZAR HACIA ARRIBA-->
+
         <div class="nav">
-            <h2>IT Systems</h2>
+            <a class="titulo" href="index.html">IT Systems</a>
+                 <!-- <h2>IT Systems</h2> --> 
+
             <ul id="item">
                 <li><a href="#inicio">Inicio</a> </li>
                 <li><a href="#nosotros">Sobre nosotros</a> </li>
@@ -24,6 +34,8 @@
             </ul>
             <i id="bar" class="fa fa-bars" aria-hidden="true"></i>
         </div>
+
+       
 
         <div id="inicio" class="back">
             <div class="overlay"></div>
@@ -48,12 +60,12 @@
             <div class="two" data-aos="fade-right">
                  <h3>Atencion al cliente</h3>
                  <br>
-                 <h5>Domingo : Cerrado</h5>
-                 <h5>Lunes : Viernes</h5>
+               
+                 <h5>Lunes a viernes</h5>
                  <p>9:00 AM - 12:00 PM</p>
                  <br>
-                 <h5>Miercoles : Cerrado</h5>
-                 <p>9:00 AM - 12:00 PM</p>
+                 <h5>Sabado y domingo : Cerrado</h5>
+                 <p>#:00 AM - #:00 PM</p>
             </div>
         </div>
 
@@ -191,6 +203,12 @@
          </div>
         </form>
 
+        <div class="redes" data-aos="fade-up">
+            <div class="yt">
+                <h2>Video youtube</h2>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/a-CbKbLPRI0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
 
         <div class="footer" data-aos="fade-up">
             <p > Copyright ⓒ 2020 AICAM IT. <br>Diseño: Gian
@@ -201,6 +219,8 @@
             957-485-456</p>
         </div>
 
+     
+        <!-- ESTILO DE SCROLL-->
         <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
         <script>
           AOS.init({
@@ -209,12 +229,16 @@
           });
         </script>
 
+        <!-- FLECHA DESLIZAR ARRIBA-->
+       
+
+    
         <script src="js/script.js"></script>
     </body>
     
 </html>
 
 
-<!-- Me quede en el minuto 37:00
+<!-- 
 https://www.youtube.com/watch?v=aF1sv6AsDFE&list=PL9bD98LkBR7MtygkbKtP0hEczINPC-pCo&index=3
 -->
